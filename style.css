@@ -83,7 +83,7 @@ button:hover {
   color: hsl(228, 45%, 44%);
 }
 
-@media (max-width: 960px) {
+@media (max-width: 760px) {
   .productCard {
     width: 343px;
     height: 611px;
@@ -96,5 +96,9 @@ button:hover {
   }
   h1 {
     margin: 10px 0px;
+  }
+  img {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
   }
 }
